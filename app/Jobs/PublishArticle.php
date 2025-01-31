@@ -1,0 +1,31 @@
+<?php
+/**
+ * @author Hojjat koochak zadeh
+ */
+
+namespace App\Jobs;
+
+use App\Facades\Article;
+use Illuminate\Contracts\Queue\ShouldQueue;
+use Illuminate\Foundation\Queue\Queueable;
+
+class PublishArticle implements ShouldQueue
+{
+    use Queueable;
+
+    /**
+     * Create a new job instance.
+     */
+    public function __construct()
+    {
+        //
+    }
+
+    /**
+     * Execute the job.
+     */
+    public function handle(): void
+    {
+        Article::publishArticles();
+    }
+}

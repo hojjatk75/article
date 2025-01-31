@@ -1,0 +1,33 @@
+تسک های انجام شده:
+پیاده سازی ساختار ثبت نام و لاگین و فراموشی رمز مطابق با نیاز کارفرما
+تحلیل و پیاده سازی دیتابیس پروژه
+پیاده سازی موارد زیر برای پروژه:
+migration
+controller
+model
+enum
+service provider
+service
+unit test
+postman collection
+trait
+api resource
+api collection
+validation
+facade
+event
+listener
+job
+exception
+middleware
+notification
+rule
+docs
+
+تمام موارد فوق برای دسته بندی ها و سرویس auth و مقالات پیاده سازی شده بجز test که به دلیل کمبود وقت فقط برای auth پیاده سازی شده است.
+
+تسک هایی که نیاز است انجام شود:
+پیاده سازی تست برای دسته بندی ها و مقالات و همچنین ریویو تست auth
+پیاده سازی feature test پروژه
+ریویو کش
+به عنوان یه پروژه تستی تا اینجا اوکیه، برای اینکه پروژه واقعا ران بشه کارهای زیادی باید انجام بشه که تو فایل DEVELOP.txt نوشتم
